@@ -1,0 +1,10 @@
+Source code for shrewdness blog.
+
+I've included eclipse .project and .classpath files
+
+Once compiled into the bin dir, you can run the SimpleSorts from the command line as follows:
+
+java -cp bin -Djava.util.logging.config.file=src/main/java/logging-thompson234.com com.thompson234.sort.SimpleSorts
+
+TODO:
+1.  Add some ant love to make this easier for other users
